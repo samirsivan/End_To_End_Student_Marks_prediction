@@ -33,4 +33,5 @@ class DataIngestion:
             test_df.to_csv(self.ingestion_config.test_data_path, header=True, index=False)
             logging.info("DataIngestion Completed")
         except Exception as e:
+            logging.info("Something went wrong with initiateDataIngestion function from DataIngestion class")
             raise CustomException(e, sys)
