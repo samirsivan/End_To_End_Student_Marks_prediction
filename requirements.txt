@@ -6,4 +6,6 @@ matplotlib
 seaborn
 plotly
 python-dotenv
+xgboost
+catboost
 #-e .
